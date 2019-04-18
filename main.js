@@ -23,11 +23,13 @@ buttonsGroup.addEventListener('click', function(e){
 });
 
 function grp(){
-	document.getElementById("container").innerHTML = "<img id='g1' src='data/group1.jpg'/><img id='g2' src='data/group2.jpg'/><img id='g3' src='data/group3.jpg'/><img id='g4' src='data/group4.jpg'/>";
+	document.getElementById("container").innerHTML = "";
+	document.getElementById("img").innerHTML = "<a href='https://www.google.com'><img id='g1' src='data/group1.jpg'/></a><a href='https://www.google.com'><img id='g2' src='data/group2.jpg'/></a><a href='https://www.google.com'><img id='g3' src='data/group3.jpg'/></a><a href='https://www.google.com'><img id='g4' src='data/group4.jpg'/></a>";
 }
 
 function loc(){
-	document.getElementById("container").innerHTML = "6 E 16 ST, New York, NY, 10011<br>12th Floor";
+	document.getElementById("container").innerHTML = "";
+	document.getElementById("poster").innerHTML = "<img id='poster' src='data/poster.png'/>";
 	var btn = document.createElement("BUTTON");
 	btn.innerHTML = "Back";
 	document.body.appendChild(btn);
