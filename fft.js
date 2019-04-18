@@ -1,20 +1,23 @@
-let yoff = 0.0; // 2nd dimension of perlin noise
+let yoff = 0.0;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  // canvas.position(0, 0);
+  // canvas.style('z-index','-1');
 }
 
 function draw() {
-  color(HSB);
-  background('#fc861d');
-  noStroke();
+  background(220);
+  
+  var color1 = color(252, 134, 29);
+  var color2 = color(44, 218, 255);
+  
+  setGradient(0, 0, windowWidth, windowHeight, color1, color2, "X");
 
-  // var col = lerpColor('#2cdaff', '#fc861d')
-
-  fill(255);
   // We are going to draw a polygon out of the wave points
   beginShape();
-
+  fill(255);
+  noStroke();
   // let xoff = 0; // Option #1: 2D Noise
   let xoff = yoff; // Option #2: 1D Noise
 
@@ -38,6 +41,19 @@ function draw() {
   vertex(width, height);
   vertex(0, height);
   endShape(CLOSE);
+}
+
+function setGradient(x, y, w, h, c1, c2, axis) {
+  noFill();
+  
+  if (axis == "X") {  // Left to right gradient
+    for (let j = x; j <= x+w; j++) {
+      var inter2 = map(j, x, x+w, 0, 1);
+      var d = lerpColor(c1, c2, inter2);
+      stroke(d);
+      line(j, y, j, y+h);
+    }
+  }
 }
 
 //--------------------------------------------------------------
