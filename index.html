@@ -1,60 +1,45 @@
-<!doctype html>
-<html class="no-js" lang="">
+<!DOCTYPE html>
+<html>
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>new.wav</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
+  <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
   <link rel="stylesheet" href="style.css">
-  
-  <script src="p5.js"></script>
-  <script src="p5.dom.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="icon.png" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="p5.min.js"></script>
+  <script src="p5.dom.min.js"></script>
 
-  <style>
-      html{
-        background-image: url('background.png');
-      }
-    </style>
+  <!-- <style>
+    html{
+      background-image: url('background.png');
+    }
+  </style> -->
 
 </head>
 
 <body>
+
+  <div id="top"><script src="fft.js"></script></div>
+
   <div id="img"></div>
   <div id="poster"></div>
+  <div id="description"></div>
   <div id="container">
     <h1>new.wav</h1>
-    <h2>11:00AM - 6:00PM</h2>
     <h2>May 4th, 2019</h2>
-     <p>new.wav is an exhibition focusing on social sonic interfaces. It consists of a variety of musical experiences that only work when two or more people engage with them at the same time. The experiences focus on music and sound and their relation to the participants.</p>
-     <button id="group">View Participants</button>
-     <button id="location">Location</button>
+    <h2>11:00AM - 6:00PM</h2>
+    <h2>6 E 16 ST, NY, NY</h2>
+    <h2>12th Floor</h2>
+    <p>new.wav is an exhibition focusing on social sonic interfaces. It consists of a variety of musical experiences that only work when two or more people engage with them at the same time. The experiences focus on music and sound and their relation to the participants.</p>
+    <button id="group">Participants</button>
+    <button id="location">Location</button>
   </div>
 
+  <div id="back"></div>
 
-
-  
-  <!-- <script src="fft.js"></script> -->
   <script src="main.js"></script>
-
-  <script src="modernizr-3.6.0.min.js"></script>
-  <script src="plugins.js"></script>
-
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  
 </body>
 
 </html>

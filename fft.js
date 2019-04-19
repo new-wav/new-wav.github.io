@@ -1,9 +1,9 @@
 let yoff = 0.0;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
-  // canvas.position(0, 0);
-  // canvas.style('z-index','-1');
+  var cnv = createCanvas(windowWidth, 500, 0, 0);
+  cnv.position(0, 0);
+  cnv.style('z-index','-1');
 }
 
 function draw() {
