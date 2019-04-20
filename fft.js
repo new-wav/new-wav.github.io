@@ -26,7 +26,7 @@ function draw() {
     // Calculate a y value according to noise, map to
 
     // Option #1: 2D Noise
-    let y = map(noise(xoff, yoff), 0, 1, 100, 200);
+    let y = map(noise(xoff, yoff), 0, 1, 70, 140);
 
     // Option #2: 1D Noise
     // let y = map(noise(xoff), 0, 1, 200,300);
