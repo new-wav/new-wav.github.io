@@ -5,19 +5,21 @@ html, body {
  	background: no-repeat fixed center;
 	background-size:cover;
 	font-family: 'IBM Plex Mono', monospace;
+	overflow: hidden;
 }
 
 h1{
-	font-size: 50px;
+	font-size: 65px;
 }
 
 h2{
-	font-size: 20px;
+	font-size: 16px;
 }
 
 p{
 	padding-top: 30px;
 	line-height: 30px;
+	font-size: 17px;
 }
 
 button{
@@ -26,16 +28,11 @@ button{
 	font: inherit;
 }
 
-script{
-	z-index: -1;
-	height: 100%;
-}
-
 img{
 	position: relative;
-	width: 300px;
+	width: 14vw;
 	height: auto;
-	padding: 10px;
+	padding: 20px;
 /*	padding-bottom: 30px;*/
 	
 }
@@ -59,31 +56,36 @@ img{
 	font-weight: bold;
 }
 
-#container{
-	text-align: center;
-	margin: 0 auto;
-	padding-top: 13%;
-	font-weight: lighter;
-	width: 700px;
-}
-
 #back{
 	width: 100px;
 	margin: 0 auto;
 	text-align: center;
 }
 
-#img{
-	width: 850px;
-	margin: 0 auto;
-	margin-top: 200px;
+#title{
+	width: 35%;
+	display: inline;
 	text-align: center;
+	float: left;
+	margin-left: 10%;
+	margin-top: 9%;
+}
+
+#img{
+	width: 35%;
+	display: inline;
+	margin: 0 auto;
+	text-align: center;
+	float: right;
+	margin-right: 10%;
+	margin-top: 10%
+	
 }
 
 #poster{
 	margin: 0 auto;
 	width: 500px;
-	margin-top: 200px;
+	text-align: center;
 }
 
 #top{
@@ -92,9 +94,15 @@ img{
 
 #description{
 	margin: 0 auto;
-	width: 500px;
-	margin-top: 200px;
+	margin-top: 12%;
+	width: 550px;
+	
 }
+
+#description h1{
+	font-size: 50px;
+}
+
 
 
 

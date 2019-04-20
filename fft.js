@@ -1,7 +1,7 @@
 let yoff = 0.0;
 
 function setup() {
-  var cnv = createCanvas(windowWidth, 500, 0, 0);
+  var cnv = createCanvas(windowWidth, 300);
   cnv.position(0, 0);
   cnv.style('z-index','-1');
 }
@@ -26,13 +26,13 @@ function draw() {
     // Calculate a y value according to noise, map to
 
     // Option #1: 2D Noise
-    let y = map(noise(xoff, yoff), 0, 1, 200, 300);
+    let y = map(noise(xoff, yoff), 0, 1, 100, 200);
 
     // Option #2: 1D Noise
     // let y = map(noise(xoff), 0, 1, 200,300);
 
     // Set the vertex
-    vertex(x, y+50);
+    vertex(x, y);
     // Increment x dimension for noise
     xoff += 0.1;
   }
@@ -49,7 +49,7 @@ function setGradient(x, y, w, h, c1, c2, axis) {
   if (axis == "X") {  // Left to right gradient
     for (let j = x; j <= x+w; j++) {
       var inter2 = map(j, x, x+w, 0, 1);
-      var d = lerpColor(c1, c2, inter2);
+      var d = lerpColor(c2, c1, inter2);
       stroke(d);
       line(j, y, j, y+h);
     }
