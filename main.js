@@ -54,6 +54,8 @@ buttonBack.addEventListener('click', function(e){
 
 function loc(){
 	$("#img").hide();
+    $("#title").hide();
+
 	document.getElementById("poster").innerHTML = "<img id='poster' src='data/location.jpg'/><p>6 E 16th ST, NY, NY | 12th Floor</p>";
 }
 
