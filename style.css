@@ -9,17 +9,17 @@ html, body {
 }
 
 h1{
-	font-size: 65px;
+	font-size: 4vw;
 }
 
 h2{
-	font-size: 16px;
+	font-size: 1vw;
 }
 
 p{
 	padding-top: 30px;
-	line-height: 30px;
-	font-size: 17px;
+	line-height: 2vw;
+	font-size: 1.01vw;
 }
 
 button{
@@ -67,18 +67,19 @@ img{
 	display: inline;
 	text-align: center;
 	float: left;
-	margin-left: 10%;
-	margin-top: 12%;
+	margin-left: 5%;
+	margin-top: 10%;
+
 }
 
 #img{
-	width: 35%;
+	width: 45%;
 	display: inline;
 	margin: 0 auto;
 	text-align: center;
 	float: right;
-	margin-right: 10%;
-	margin-top: 10%
+	margin-right: 5%;
+	margin-top: 10%;
 	
 }
 
@@ -101,7 +102,7 @@ img{
 }
 
 #description h1{
-	font-size: 50px;
+	font-size: 2.6vw;
 }
 
 
