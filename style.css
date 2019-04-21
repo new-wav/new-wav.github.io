@@ -159,11 +159,11 @@ and (-webkit-device-pixel-ratio : 3) {
 		width: 500px;
 	}
 }
-/*
+
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) {
-	#img{
+		#img{
 		display: block;
 		width: 540px;
 		padding-bottom: 50px;
@@ -178,6 +178,11 @@ and (max-device-width : 667px) {
 
 	#title h1{
 		font-size: 150px;
+	}
+
+	#poster{
+		padding-top: 200px;
+		width: 100%;
 	}
 
 	h2{
@@ -201,7 +206,7 @@ and (max-device-width : 667px) {
 		display: block;
 		width: 500px;
 	}
-}*/
+}
 
 @media (min-width: 1025px){ 
 
