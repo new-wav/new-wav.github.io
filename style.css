@@ -9,35 +9,32 @@ html, body {
 }
 
 #title h1{
-	font-size: 6vw;
+	font-size: 6em;
 	margin-bottom: 50px;
 }
 
 h2{
-	font-size: 1vw;
+	font-size: 1em;
 	margin-top: 0px;
 }
 
 p{
 	padding-top: 30px;
-	line-height: 2vw;
-	font-size: 1.01vw;
+	line-height: 2em;
+	font-size: 1.2em;
 }
 
 button{
 	border: none;
 	background-color: transparent;
 	font: inherit;
-	font-size: 1.01vw;
+	font-size: 1.2em;
 }
 
 img{
-	position: relative;
-	width: 15vw;
+	width: 16em;
 	height: auto;
 	padding: 20px;
-/*	padding-bottom: 30px;*/
-	
 }
 
 #img img:hover{
@@ -69,21 +66,13 @@ img{
 	width: 35%;
 	display: inline;
 	text-align: center;
-	float: left;
-	margin-left: 10%;
-	margin-top: 5%;
 
 }
 
 #img{
 	width: 45%;
-	display: inline;
 	margin: 0 auto;
 	text-align: center;
-	float: right;
-	margin-right: 5%;
-	margin-top: 10%;
-	margin-bottom: 50px;
 	/*outline: 2px solid red;*/
 	
 }
@@ -110,6 +99,10 @@ img{
 	font-size: 2.6vw;
 }
 
+#button{
+	margin: 0 auto;
+}
+
 
 
 
@@ -117,13 +110,26 @@ img{
 and (min-device-width : 375px) 
 and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) {
-
+	
 	#img{
 		display: block;
+		margin-left: 200px;
+		margin-right: 20px;
+		outline: 2px solid red;
 	}
 
 	#title{
 		display: block;
+		outline: solid 2px blue;
+	}
+
+	img{
+		display: block;
+		width: 500px;
+	}
+
+	button{
+		margin: 0 auto;
 	}
 
 }
@@ -133,4 +139,23 @@ and (-webkit-device-pixel-ratio : 3) {
 	html, body{
 		overflow: hidden;
 	}
+
+	#img{
+		float: right;
+		margin-right: 5%;
+		margin-top: 10%;
+		margin-bottom: 50px;
+	}
+
+	#title{
+		float: left;
+		margin-left: 10%;
+		margin-top: 5%;
+
+	}
+
+	img{
+		display: inline;
+	}
+
 }
