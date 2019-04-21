@@ -1,9 +1,9 @@
 let yoff = 0.0;
 
 function setup() {
-  var cnv = createCanvas(windowWidth, 300);
+  var cnv = createCanvas(windowWidth, 200);
   cnv.position(0, 0);
-  cnv.style('z-index','-1');
+  cnv.style('z-index','2');
 }
 
 function draw() {
@@ -16,7 +16,7 @@ function draw() {
 
   // We are going to draw a polygon out of the wave points
   beginShape();
-  fill(255);
+  fill(0);
   noStroke();
   // let xoff = 0; // Option #1: 2D Noise
   let xoff = yoff; // Option #2: 1D Noise

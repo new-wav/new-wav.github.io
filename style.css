@@ -4,6 +4,8 @@ html, body {
  	height: 100%;
  	background: no-repeat fixed center;
 	background-size:cover;
+	color: white;
+	background-color: black;
 	
 	/*overflow: hidden;*/
 }
@@ -41,6 +43,7 @@ button{
 	font-weight: bold;
 	font-size: 1vw;
 	font-family: 'Ubuntu Mono', monospace;
+	color: white;
 }
 
 img{
