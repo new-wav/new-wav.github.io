@@ -90,7 +90,7 @@ img{
 
 #poster{
 	margin: 0 auto;
-	width: 500px;
+	width: 1000px;
 	text-align: center;
 	margin-top: 10%;
 }
@@ -132,6 +132,11 @@ and (-webkit-device-pixel-ratio : 3) {
 		font-size: 150px;
 	}
 
+	#poster{
+		padding-top: 200px;
+		width: 100%;
+	}
+
 	h2{
 		font-size: 35px;
 		margin-top: 50px
@@ -154,7 +159,7 @@ and (-webkit-device-pixel-ratio : 3) {
 		width: 500px;
 	}
 }
-
+/*
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) {
@@ -196,7 +201,7 @@ and (max-device-width : 667px) {
 		display: block;
 		width: 500px;
 	}
-}
+}*/
 
 @media (min-width: 1025px){ 
 
