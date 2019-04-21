@@ -16,7 +16,7 @@ function draw() {
 
   // We are going to draw a polygon out of the wave points
   beginShape();
-  fill(0);
+  fill('#000000');
   noStroke();
   // let xoff = 0; // Option #1: 2D Noise
   let xoff = yoff; // Option #2: 1D Noise
