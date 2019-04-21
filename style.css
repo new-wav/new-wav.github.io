@@ -9,30 +9,30 @@ html, body {
 }
 
 #title h1{
-	font-size: 6em;
+	font-size: 6vw;
 	margin-bottom: 50px;
 }
 
 h2{
-	font-size: 1em;
+	font-size: 1vw;
 	margin-top: 0px;
 }
 
 p{
 	padding-top: 30px;
-	line-height: 2em;
-	font-size: 1.2em;
+	line-height: 2vw;
+	font-size: 1.01vw;
 }
 
 button{
 	border: none;
 	background-color: transparent;
 	font: inherit;
-	font-size: 1.2em;
+	font-size: 1.01vw;
 }
 
 img{
-	width: 16em;
+	width: 15vw;
 	height: auto;
 	padding: 20px;
 }
@@ -99,10 +99,6 @@ img{
 	font-size: 2.6vw;
 }
 
-#button{
-	margin: 0 auto;
-}
-
 
 
 
@@ -113,23 +109,40 @@ and (-webkit-device-pixel-ratio : 3) {
 	
 	#img{
 		display: block;
-		margin-left: 200px;
-		margin-right: 20px;
-		outline: 2px solid red;
+		width: 540px;
+		padding-bottom: 50px;
+		margin: 0 auto;
 	}
 
 	#title{
 		display: block;
-		outline: solid 2px blue;
+		margin: 0 auto;
+		width: 800px;
+	}
+
+	#title h1{
+		font-size: 150px;
+	}
+
+	h2{
+		font-size: 15px;
+	}
+
+	p{
+		font-size: 15px;
+		line-height: 60px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	button{
+		font-size: 40px;
+		padding-bottom: 20px;
 	}
 
 	img{
 		display: block;
 		width: 500px;
-	}
-
-	button{
-		margin: 0 auto;
 	}
 
 }
