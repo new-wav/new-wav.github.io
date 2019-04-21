@@ -1,11 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,200,400|Ubuntu+Mono:400,700');
 
 html, body {
  	height: 100%;
  	background: no-repeat fixed center;
 	background-size:cover;
-	font-family: 'IBM Plex Mono', monospace;
+	
 	/*overflow: hidden;*/
+}
+
+h1{
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 200;
+}
+
+h2{
+	font-family: 'IBM Plex Sans', sans-serif;
 }
 
 #title h1{
@@ -16,12 +25,14 @@ html, body {
 h2{
 	font-size: 0.9vw;
 	margin-top: 0px;
+	line-height: 2.5vw;
 }
 
 p{
 	padding-top: 30px;
 	line-height: 2vw;
 	font-size: 1vw;
+	font-family: 'Ubuntu Mono', monospace;
 }
 
 button{
@@ -29,6 +40,7 @@ button{
 	background-color: transparent;
 	font: inherit;
 	font-size: 1vw;
+	font-family: 'Ubuntu Mono', monospace;
 }
 
 img{
@@ -126,6 +138,7 @@ and (-webkit-device-pixel-ratio : 3) {
 
 	h2{
 		font-size: 15px;
+		margin-top: 50px
 	}
 
 	p{
