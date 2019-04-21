@@ -9,30 +9,30 @@ html, body {
 }
 
 #title h1{
-	font-size: 6vw;
+	font-size: 5vw;
 	margin-bottom: 50px;
 }
 
 h2{
-	font-size: 1vw;
+	font-size: 0.9vw;
 	margin-top: 0px;
 }
 
 p{
 	padding-top: 30px;
 	line-height: 2vw;
-	font-size: 1.01vw;
+	font-size: 1vw;
 }
 
 button{
 	border: none;
 	background-color: transparent;
 	font: inherit;
-	font-size: 1.01vw;
+	font-size: 1vw;
 }
 
 img{
-	width: 15vw;
+	width: 14vw;
 	height: auto;
 	padding: 20px;
 }
@@ -145,6 +145,48 @@ and (-webkit-device-pixel-ratio : 3) {
 		width: 500px;
 	}
 
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+	#img{
+		display: block;
+		width: 540px;
+		padding-bottom: 50px;
+		margin: 0 auto;
+	}
+
+	#title{
+		display: block;
+		margin: 0 auto;
+		width: 800px;
+	}
+
+	#title h1{
+		font-size: 150px;
+	}
+
+	h2{
+		font-size: 15px;
+	}
+
+	p{
+		font-size: 15px;
+		line-height: 60px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	button{
+		font-size: 40px;
+		padding-bottom: 20px;
+	}
+
+	img{
+		display: block;
+		width: 500px;
+	}
 }
 
 @media (min-width: 1025px){ 
