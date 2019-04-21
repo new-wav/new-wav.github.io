@@ -110,9 +110,6 @@ img{
 	font-size: 2.6vw;
 }
 
-
-
-
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 812px)
@@ -156,7 +153,6 @@ and (-webkit-device-pixel-ratio : 3) {
 		display: block;
 		width: 500px;
 	}
-
 }
 
 @media only screen 
@@ -180,11 +176,12 @@ and (max-device-width : 667px) {
 	}
 
 	h2{
-		font-size: 15px;
+		font-size: 35px;
+		margin-top: 50px
 	}
 
 	p{
-		font-size: 15px;
+		font-size: 40px;
 		line-height: 60px;
 		padding-top: 50px;
 		padding-bottom: 50px;
