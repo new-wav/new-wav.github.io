@@ -10,7 +10,6 @@ html, body {
 
 h1{
 	font-family: 'IBM Plex Sans', sans-serif;
-	font-weight: 200;
 }
 
 h2{
@@ -25,7 +24,7 @@ h2{
 h2{
 	font-size: 0.9vw;
 	margin-top: 0px;
-	line-height: 2.5vw;
+	line-height: 2vw;
 }
 
 p{
@@ -137,12 +136,12 @@ and (-webkit-device-pixel-ratio : 3) {
 	}
 
 	h2{
-		font-size: 15px;
+		font-size: 35px;
 		margin-top: 50px
 	}
 
 	p{
-		font-size: 15px;
+		font-size: 40px;
 		line-height: 60px;
 		padding-top: 50px;
 		padding-bottom: 50px;
