@@ -5,11 +5,11 @@ html, body {
  	background: no-repeat fixed center;
 	background-size:cover;
 	font-family: 'IBM Plex Mono', monospace;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 #title h1{
-	font-size: 7vw;
+	font-size: 6vw;
 	margin-bottom: 50px;
 }
 
@@ -33,7 +33,7 @@ button{
 
 img{
 	position: relative;
-	width: 16vw;
+	width: 15vw;
 	height: auto;
 	padding: 20px;
 /*	padding-bottom: 30px;*/
@@ -83,6 +83,7 @@ img{
 	float: right;
 	margin-right: 5%;
 	margin-top: 10%;
+	margin-bottom: 50px;
 	/*outline: 2px solid red;*/
 	
 }
@@ -112,4 +113,24 @@ img{
 
 
 
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
 
+	#img{
+		display: block;
+	}
+
+	#title{
+		display: block;
+	}
+
+}
+
+@media (min-width: 1025px){ 
+
+	html, body{
+		overflow: hidden;
+	}
+}
