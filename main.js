@@ -88,7 +88,7 @@ function g3(){
     $("#img").hide();
     $("#title").hide();
     $("#description").show();
-    document.getElementById("description").innerHTML = "<h1>Parallax</h1><p>Parallax embodies the rare moment when you and another person have a parallel experience or thought, making you aware of collective consciousness.</p><p>Aleksandra Jankowska, Alyssa Joines, Dahee Lee, Rui Xu, Yizhou Chen</p>"
+    document.getElementById("description").innerHTML = "<h1>Parallax</h1><p>Parallax embodies the rare moment when you and another person have a parallel experience or thought, making you aware of collective consciousness. It allows users to explore a deeper connection between themselves and the universe.</p><p>Aleksandra Jankowska, Alyssa Joines, Dahee Lee, Rui Xu, Yizhou Chen</p>"
     $("#back").show();
 }
 
