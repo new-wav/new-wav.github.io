@@ -96,6 +96,6 @@ function g4(){
     $("#img").hide();
     $("#title").hide();
     $("#description").show();
-    document.getElementById("description").innerHTML = "<h1>Boletus</h1><p>Boletus is a multi-user installation that consists of instruments in the shape of colossal mushrooms, welcome users to press/tap/turn/play. Each mushroom instrument generates their own unique melodic beats and projected visuals, eagers users to collaborate while creating their own music experience.</p><p>Pheobe Zheng, Rian Ishikawa, Yanwen Dong, Lillian Crandall, Sky Ta</p>"
+    document.getElementById("description").innerHTML = "<h1>Boletus</h1><p>Boletus is a multi-user installation that consists of instruments in the shape of colossal mushrooms, welcome users to press/tap/turn/play. Each mushroom instrument generates their own unique melodic beats and projected visuals, eagers users to collaborate while creating their own music experience.</p><p>Pheobe Zheng, Rian Ishikawa, Yvonne Dong, Lillian Crandall, Sky Ta</p>"
     $("#back").show();
 }
