@@ -72,7 +72,7 @@ function g1(){
     $("#img").hide();
     $("#title").hide();
     $("#description").show();
-    document.getElementById("description").innerHTML = "<h1>Tones of Intimacy</h1><p>Tones of Intimacy is an experience that sonifies interpersonal interactions through physical proximity.  By allowing participants to collaboratively explore and question their own intimacy we aim to investigate the uniqueness that arises from different relationships.</p><p>Lizette Ayala, Brooke Smith, Andy Sun, Herbert Ramirez, Josefina Bisqualiz</p>"
+    document.getElementById("description").innerHTML = "<h1>Tones of Intimacy</h1><p>Tones of Intimacy is an experience that sonifies interpersonal interactions through physical proximity.  By allowing participants to collaboratively explore and question their own intimacy we aim to investigate the uniqueness that arises from different relationships.</p><p>Lizette Ayala, Brooke Smith, Andy Sun, Herbert Ramirez, Josefina Biscailuz</p>"
     $("#back").show();
 }
 
@@ -96,6 +96,6 @@ function g4(){
     $("#img").hide();
     $("#title").hide();
     $("#description").show();
-    document.getElementById("description").innerHTML = "<h1>Boletus</h1><p>Boletus is a multi-user installation that consists of instruments in the shape of colossal mushrooms, welcome users to press/tap/turn/play. Each mushroom instrument generates their own unique melodic beats and projected visuals, eagers users to collaborate while creating their own music experience.</p><p>Pheobe Zheng, Rian Ishikawa, Yvonne Dong, Lillian Crandall, Sky Ta</p>"
+    document.getElementById("description").innerHTML = "<h1>Boletus</h1><p>Boletus is a multi-user installation that consists of instruments in the shape of colossal mushrooms, welcome users to press/tap/turn/play. Each mushroom instrument generates their own unique melodic beats and projected visuals, eagers users to collaborate while creating their own music experience.</p><p>Phoebe Zheng, Rian Ishikawa, Yvonne Dong, Lillian Crandall, Sky Ta</p>"
     $("#back").show();
 }
